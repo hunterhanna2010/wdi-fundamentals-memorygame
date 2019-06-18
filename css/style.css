@@ -1,0 +1,133 @@
+body {
+	text-align: center;
+	margin: 0;
+	letter-spacing: 1px;
+	font-family: "Droid Serif", serif;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Raleway;
+	color: #D4AF37;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	border-bottom: 2px solid transparent;
+
+}
+
+a:hover {
+	 border-bottom: 2px solid white;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 0;
+	font-family: Raleway;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: Raleway;
+	text-transform: uppercase;
+	display: justify;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+h4 {
+	font-family: "Raleway";
+	text-transform: uppercase;
+	color: #0D2C40;
+	font-weight: 400;
+}
+
+p {
+	font-family: Droid Serif;
+	line-height: 26px;
+	font-size: 18px;
+	display: justify;
+}
+
+div {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+}
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
+	margin: 0;
+}
+nav {
+	background-color: #00A6B3;
+	padding: 20px 0;
+}
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px 0 8px;
+	display: inline-block;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 40px 0;
+	background-color: #0D2C40;
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+	margin: 20px 0;
+
+}
+
+.clearfix: after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+#game-board {
+	width: 850px;
+	display: block;
+	background-color: #00A6B3;
+
+}
